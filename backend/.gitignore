@@ -1,0 +1,15 @@
+# 环境变量与密钥
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 会话快照
+data/

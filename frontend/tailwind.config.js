@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        // 主色：sky blue 色系（取值同 Tailwind 内置 sky 调色板）
+        // 使用方式: bg-primary text-primary-600 border-primary-300 ...
+        primary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+          950: '#082f49',
+          DEFAULT: '#0ea5e9', // bg-primary 等价于 bg-primary-500
+        },
+      },
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,80 @@
+{
+  "base_questions": [
+    {
+      "name": "product_name",
+      "label": "产品名称",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "core_problem",
+      "label": "核心问题",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "name": "target_users",
+      "label": "目标用户",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "name": "mvp_features",
+      "label": "MVP 功能清单（每行一个功能）",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "name": "product_stage",
+      "label": "产品当前阶段",
+      "type": "select",
+      "required": false,
+      "options": ["创意构思", "设计中", "开发中", "已上线"]
+    }
+  ],
+  "advanced_questions": [
+    {
+      "name": "tagline",
+      "label": "一句话定位",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "user_scenarios",
+      "label": "典型使用场景",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "name": "non_goals",
+      "label": "明确不做",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "name": "success_metrics",
+      "label": "成功指标",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "name": "target_platform",
+      "label": "目标平台",
+      "type": "radio",
+      "required": false,
+      "options": ["Web 应用", "移动 App", "桌面应用", "暂不确定"]
+    },
+    {
+      "name": "constraints",
+      "label": "资源与时间约束",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "name": "dependencies",
+      "label": "外部依赖",
+      "type": "text",
+      "required": false
+    }
+  ]
+}
